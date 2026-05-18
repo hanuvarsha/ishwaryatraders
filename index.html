@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balaji Traders – Hardware, Plumbing & Borewell Specialists | Kanchipuram</title>
+  <meta name="description" content="Balaji Traders – Your trusted hardware, plumbing, sanitary wares, pumps, borewell and water tank specialists in Kanchipuram." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <div class="logo-icon"><img src="logo.jpeg" width="50"></div>
+        <div class="logo-text">
+          <span class="logo-main">BALAJI TRADERS</span>
+          <span class="logo-sub">Hardware & Plumbing Specialists</span>
+        </div>
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#featured">Featured</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#admin" class="admin-link">Admin</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="tel:7810019295" class="btn-call-nav">📞 Call Now</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">🏆 Kanchipuram's Most Trusted Since 1995 Truewell Pipes Main dealer</div>
+      <h1 class="hero-title">
+        <span class="hero-title-line1">BALAJI</span>
+        <span class="hero-title-line2">TRADERS</span>
+      </h1>
+      <p class="hero-tagline">Hardware • Plumbing • Sanitary Wares • Pumps • Borewell • Water Tanks</p>
+      <div class="hero-stats">
+        <div class="stat"><strong>500+</strong><span>Products</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>10,000+</strong><span>Customers</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>40+</strong><span>Years Exp.</span></div>
+      </div>
+      <div class="hero-actions">
+        <a href="#products" class="btn-primary">Browse Products</a>
+        <a href="https://wa.me/917810019295?text=Hello%20Balaji%20Traders%2C%20I%20need%20a%20quote" target="_blank" class="btn-whatsapp">💬 WhatsApp Us</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== CATEGORY QUICK LINKS ===== -->
+  <section class="category-strip">
+    <div class="container">
+      <div class="category-chips" id="categoryChips">
+        <button class="chip active" data-cat="All">All Products</button>
+        <button class="chip" data-cat="Pipes">🔩 Pipes</button>
+        <button class="chip" data-cat="Plumbing Materials">🔧 Plumbing</button>
+        <button class="chip" data-cat="Sanitary Wares">🚿 Sanitary</button>
+        <button class="chip" data-cat="Water Tanks">💧 Water Tanks</button>
+        <button class="chip" data-cat="Pumps">⚡ Pumps</button>
+        <button class="chip" data-cat="Borewell Items">🔨 Borewell</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section class="section products-section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Our Catalogue</div>
+        <h2 class="section-title">All Products</h2>
+        <p class="section-desc">Quality hardware and plumbing materials at the best prices in Kanchipuram</p>
+      </div>
+      <div class="products-toolbar">
+        <div class="search-bar">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" placeholder="Search products by name or category…" />
+          <button id="clearSearch" class="clear-btn" style="display:none">✕</button>
+        </div>
+        <div class="sort-bar">
+          <select id="sortSelect">
+            <option value="default">Sort: Default</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="name-asc">Name: A–Z</option>
+          </select>
+        </div>
+      </div>
+      <div id="productGrid" class="product-grid"></div>
+      <div id="noResults" class="no-results" style="display:none">
+        <div class="no-results-icon">🔍</div>
+        <h3>No products found</h3>
+        <p>Try a different search term or category.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED ===== -->
+  <section class="section featured-section" id="featured">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Editor's Choice</div>
+        <h2 class="section-title">Featured Products</h2>
+        <p class="section-desc">Handpicked top sellers and popular choices among our customers</p>
+      </div>
+      <div id="featuredGrid" class="product-grid featured-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES BANNER ===== -->
+  <section class="services-banner">
+    <div class="container">
+      <div class="section-tag">Our Service</div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🚰</div>
+          <h3>Pipes</h3>
+          <p>Wide Range of Pipes Available PVC | CPVC | HDPE Pipes Available.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔧</div>
+          <h3>Plumbing Installation</h3>
+          <p>Complete plumbing setup for homes and commercial buildings by certified plumbers.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🕳️</div>
+          <h3>Borewell Contracts</h3>
+          <p>Get Borewell Drilling and Pipes in One Place.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💧</div>
+          <h3>Water Tanks </h3>
+          <p>ISI certified overhead and sump tanks especially Ashirvad.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">⚡</div>
+          <h3>Pump Installation</h3>
+          <p>Submersible, monoblock and booster pump supply and professional installation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Our Work</div>
+        <h2 class="section-title">Project Gallery</h2>
+        <p class="section-desc">A glimpse of our completed installations and projects</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=800&fit=crop')">
+          <div class="gallery-overlay"><span>Pipe Installation</span></div>
+        </div>
+        <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=400&fit=crop')">
+          <div class="gallery-overlay"><span>Borewell Project</span></div>
+        </div>
+        <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=600&h=400&fit=crop')">
+          <div class="gallery-overlay"><span>Pump Fitting</span></div>
+        </div>
+        <div class="gallery-item wide" style="background-image: url('https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&h=400&fit=crop')">
+          <div class="gallery-overlay"><span>Sanitary Ware Showroom</span></div>
+        </div>
+        <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&h=400&fit=crop')">
+          <div class="gallery-overlay"><span>Water Tank Setup</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== REVIEWS ===== -->
+  <section class="section reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Testimonials</div>
+        <h2 class="section-title">What Customers Say</h2>
+        <p class="section-desc">Trusted by thousands of homes and businesses across Kanchipuram district</p>
+      </div>
+      <div id="reviewsGrid" class="reviews-grid"></div>
+    </div>
+  </section>
+  <div class="container">
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <div class="section-tag">Who We Are</div>
+          <h2 class="section-title left">About Balaji Traders</h2>
+          <p>Since 1995, <strong>Balaji Traders</strong> has been Kanchipuram's trusted name for hardware, plumbing, sanitary wares, water tanks, pumps, and complete borewell contracting services.</p>
+          <p>We stock over 500+ genuine, ISI-certified products from leading brands, and our team of experienced professionals ensures quality installation across the Tamil Nadu.</p>
+          <div class="about-highlights">
+            <div class="highlight">✅ ISI Certified Products</div>
+            <div class="highlight">✅ Expert Borewell Drilling Team</div>
+            <div class="highlight">✅ Free Site Visit for Borewells</div>
+            <div class="highlight">✅ After-Sales Service</div>
+            <div class="highlight">✅ Competitive Trade Prices</div>
+          </div>
+          <a href="tel:7810019295" class="btn-primary">📞 Call: 7810019295</a>
+        </div>
+        <div class="about-visual">
+          <div class="about-img-wrap">
+            <img src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=600&h=700&fit=crop" alt="Balaji Traders Store" loading="lazy" />
+            <div class="about-badge-float">
+              <strong>40+</strong>
+              <span>Years of Trust</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-desc">Reach out for quotes, bulk orders, or borewell contracts</p>
+      </div>
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Address</h4>
+              <p>No. 82/147 Kamarajar Street, Opposite to Govt.,Girls School, Big Kanchipuram, Tamil Nadu</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+91 7810019295">+91 7810019295</a></p>
+              <p><a href="tel:+91 9894257607">+91 9894257607</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">💬</div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/917810019295" target="_blank">Chat with us on WhatsApp</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">🕙</div>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Mon–Sat: 8:00 AM – 8:00 PM<br>Sunday: 9:00 AM – 1:00 PM</p>
+            </div>
+          </div>
+          <div class="cta-buttons">
+            <a href="tel:7810019295" class="btn-call">📞 Call Now</a>
+            <a href="https://wa.me/917810019295?text=Hello%20Balaji%20Traders%2C%20I%20need%20a%20quote" target="_blank" class="btn-wa">💬 WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap">
+          <form id="contactForm" class="contact-form">
+            <h3>Send an Enquiry</h3>
+            <div class="form-group">
+              <label>Your Name</label>
+              <input type="text" id="formName" placeholder="e.g. Ramesh Kumar" required />
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" id="formPhone" placeholder="Your mobile number" required />
+            </div>
+            <div class="form-group">
+              <label>Interested In</label>
+              <select id="formCategory">
+                <option>General Enquiry</option>
+                <option>Pipes & Fittings</option>
+                <option>Plumbing Materials</option>
+                <option>Sanitary Wares</option>
+                <option>Water Tanks</option>
+                <option>Pumps</option>
+                <option>Borewell Contract</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea id="formMessage" rows="4" placeholder="Tell us what you need…"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send via WhatsApp 💬</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="map-section">
+        <h3>Find Us on the Map</h3>
+        <div class="map-embed">
+          <iframe
+            src="https://maps.google.com/maps?q=Kamarajar+Street+Kanchipuram+Tamil+Nadu&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="Balaji Traders Location">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ADMIN PANEL ===== -->
+  <section class="section admin-section" id="admin">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Manage Store</div>
+        <h2 class="section-title">Admin Dashboard</h2>
+        <p class="section-desc">Handled by Vigneshwaran B</p>
+      </div>
+      <div class="admin-login" id="adminLogin">
+        <div class="admin-login-box">
+          <div class="admin-icon">🔐</div>
+          <h3>Admin Access</h3>
+          <p>Enter the password to access the price editor</p>
+          <input type="password" id="adminPass" placeholder="Enter admin password" />
+          <button id="adminLoginBtn" class="btn-primary">Login</button>
+        </div>
+      </div>
+      <div class="admin-panel" id="adminPanel" style="display:none">
+        <div class="admin-header">
+          <h3>Price Manager</h3>
+          <div class="admin-actions">
+            <button id="exportBtn" class="btn-admin-action">📥 Export JSON</button>
+            <button id="adminLogout" class="btn-admin-logout">Logout</button>
+          </div>
+        </div>
+        <div class="admin-search">
+          <input type="text" id="adminSearch" placeholder="Search products to edit…" />
+        </div>
+        <div id="adminTable" class="admin-table-wrap"></div>
+        <div class="admin-save-bar">
+          <button id="saveChangesBtn" class="btn-save">💾 Save All Changes</button>
+          <span id="saveStatus" class="save-status"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-text footer-logo">
+            <span class="logo-main">BALAJI TRADERS</span>
+            <span class="logo-sub">Hardware & Plumbing Specialists</span>
+          </div>
+          <p>Your one-stop shop for hardware, plumbing, sanitary wares, pumps, borewell and water tank solutions in Kanchipuram.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#products">Products</a>
+          <a href="#featured">Featured</a>
+          <a href="#about">About Us</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-cats">
+          <h4>Categories</h4>
+          <a href="#products">Pipes & Fittings</a>
+          <a href="#products">Plumbing Materials</a>
+          <a href="#products">Sanitary Wares</a>
+          <a href="#products">Water Tanks</a>
+          <a href="#products">Pumps</a>
+          <a href="#products">Borewell Items</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>📍 Kamarajar Street, Kanchipuram</p>
+          <p>📞 <a href="tel:7810019295">7810019295</a></p>
+          <p>💬 <a href="https://wa.me/917810019295" target="_blank">WhatsApp Chat</a></p>
+          <div class="footer-cta">
+            <a href="https://wa.me/917810019295" target="_blank" class="btn-wa footer-wa">💬 Order on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Balaji Traders, Kanchipuram. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/917810019295?text=Hello%20Balaji%20Traders%2C%20I%20need%20a%20quote" target="_blank" class="float-wa" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Product Modal -->
+  <div id="productModal" class="modal-overlay" style="display:none">
+    <div class="modal-box">
+      <button id="modalClose" class="modal-close">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

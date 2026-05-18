@@ -1,0 +1,276 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "CPVC Hot & Cold Pipe",
+      "category": "Pipes",
+      "price": 185,
+      "unit": "per metre",
+      "description": "Premium CPVC pipe for hot and cold water lines. Pressure rated, corrosion-resistant.",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+      "featured": true,
+      "badge": "Best Seller"
+    },
+    {
+      "id": 2,
+      "name": "PVC Column Pipe",
+      "category": "Pipes",
+      "price": 95,
+      "unit": "per metre",
+      "description": "Heavy-duty PVC column pipe suitable for borewell and submersible pump installations.",
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": ""
+    },
+    {
+      "id": 3,
+      "name": "GI Galvanized Iron Pipe",
+      "category": "Pipes",
+      "price": 320,
+      "unit": "per metre",
+      "description": "ISI marked GI pipe for water supply and distribution. Heavy gauge, long-lasting.",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": "ISI Marked"
+    },
+    {
+      "id": 4,
+      "name": "HDPE Pipe (25mm)",
+      "category": "Pipes",
+      "price": 75,
+      "unit": "per metre",
+      "description": "High-density polyethylene pipe for underground water supply. Flexible and durable.",
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": ""
+    },
+    {
+      "id": 5,
+      "name": "Ball Valve (1 inch)",
+      "category": "Plumbing Materials",
+      "price": 145,
+      "unit": "per piece",
+      "description": "Brass body ball valve with full bore. Suitable for water and gas lines.",
+      "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=300&fit=crop",
+      "featured": true,
+      "badge": "Top Pick"
+    },
+    {
+      "id": 6,
+      "name": "Gate Valve (1/2 inch)",
+      "category": "Plumbing Materials",
+      "price": 95,
+      "unit": "per piece",
+      "description": "ISI certified gate valve for water pipelines. Smooth operation, leak-proof sealing.",
+      "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": ""
+    },
+    {
+      "id": 7,
+      "name": "Elbow Fitting (90°)",
+      "category": "Plumbing Materials",
+      "price": 35,
+      "unit": "per piece",
+      "description": "UPVC 90-degree elbow for directional pipe change. Solvent weld type.",
+      "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": ""
+    },
+    {
+      "id": 8,
+      "name": "Flexible Hose Connector",
+      "category": "Plumbing Materials",
+      "price": 120,
+      "unit": "per piece",
+      "description": "Stainless steel braided flexible hose for tap and toilet connections. 30cm length.",
+      "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": "New"
+    },
+    {
+      "id": 9,
+      "name": "One-Piece Toilet (EWC)",
+      "category": "Sanitary Wares",
+      "price": 8500,
+      "unit": "per set",
+      "description": "Premium white ceramic one-piece water closet with dual flush system. ISI marked.",
+      "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop",
+      "featured": true,
+      "badge": "Premium"
+    },
+    {
+      "id": 10,
+      "name": "Wall-Hung Wash Basin",
+      "category": "Sanitary Wares",
+      "price": 3200,
+      "unit": "per piece",
+      "description": "Elegant white vitreous china wall-hung wash basin. With overflow and tap hole.",
+      "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": ""
+    },
+    {
+      "id": 11,
+      "name": "Single Lever Mixer Tap",
+      "category": "Sanitary Wares",
+      "price": 1850,
+      "unit": "per piece",
+      "description": "Chrome-finish brass single lever basin mixer with cold/hot water control.",
+      "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": ""
+    },
+    {
+      "id": 12,
+      "name": "Shower Panel Set",
+      "category": "Sanitary Wares",
+      "price": 4200,
+      "unit": "per set",
+      "description": "Complete overhead shower set with arm, rose, and wall flange. Chrome finish.",
+      "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop",
+      "featured": true,
+      "badge": "Popular"
+    },
+    {
+      "id": 13,
+      "name": "PVC Water Tank (500 L)",
+      "category": "Water Tanks",
+      "price": 3800,
+      "unit": "per piece",
+      "description": "Triple-layer food-grade PVC overhead water storage tank with ISI mark. UV stabilized.",
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop",
+      "featured": true,
+      "badge": "ISI Marked"
+    },
+    {
+      "id": 14,
+      "name": "PVC Water Tank (1000 L)",
+      "category": "Water Tanks",
+      "price": 7200,
+      "unit": "per piece",
+      "description": "1000-litre triple-layered ISI certified overhead tank. Includes lid, inlet, outlet, overflow.",
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": "Best Value"
+    },
+    {
+      "id": 15,
+      "name": "Sump Tank (2000 L)",
+      "category": "Water Tanks",
+      "price": 12500,
+      "unit": "per piece",
+      "description": "Underground sump water tank, 2000 litres. Reinforced walls, wide access manhole.",
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": ""
+    },
+    {
+      "id": 16,
+      "name": "Submersible Pump (0.5 HP)",
+      "category": "Pumps",
+      "price": 5800,
+      "unit": "per piece",
+      "description": "Single-phase submersible borewell pump. Max head 30m, flow 1500 LPH. ISI certified.",
+      "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=300&fit=crop",
+      "featured": true,
+      "badge": "Hot Deal"
+    },
+    {
+      "id": 17,
+      "name": "Monoblock Pump (1 HP)",
+      "category": "Pumps",
+      "price": 4200,
+      "unit": "per piece",
+      "description": "Self-priming centrifugal monoblock pump. Suitable for water transfer and boosting.",
+      "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": ""
+    },
+    {
+      "id": 18,
+      "name": "Jet Pump (1.5 HP)",
+      "category": "Pumps",
+      "price": 6900,
+      "unit": "per piece",
+      "description": "High-suction jet pump for shallow-well and overhead tank boosting. Energy efficient motor.",
+      "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": "Energy Star"
+    },
+    {
+      "id": 19,
+      "name": "Pressure Booster Pump",
+      "category": "Pumps",
+      "price": 8500,
+      "unit": "per piece",
+      "description": "Automatic pressure booster with pressure tank. Maintains constant water pressure in buildings.",
+      "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": "New"
+    },
+    {
+      "id": 20,
+      "name": "Borewell Drilling (per foot)",
+      "category": "Borewell Items",
+      "price": 350,
+      "unit": "per foot",
+      "description": "Professional borewell drilling service with rotary rig. Price per foot. Site visit free.",
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop",
+      "featured": true,
+      "badge": "Service"
+    },
+    {
+      "id": 21,
+      "name": "Borewell Casing Pipe (6 inch)",
+      "category": "Borewell Items",
+      "price": 420,
+      "unit": "per metre",
+      "description": "MS/UPVC 6-inch borewell casing pipe. High tensile strength for deep bore installations.",
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": ""
+    },
+    {
+      "id": 22,
+      "name": "Borewell Cable Wire",
+      "category": "Borewell Items",
+      "price": 85,
+      "unit": "per metre",
+      "description": "3-core submersible cable for underground pump wiring. Waterproof insulation, copper conductor.",
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop",
+      "featured": false,
+      "badge": ""
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Ramesh Kumar",
+      "location": "Kanchipuram",
+      "rating": 5,
+      "text": "Excellent quality pipes and very reasonable prices. Got my entire borewell setup done by them. Very professional team.",
+      "date": "March 2025"
+    },
+    {
+      "name": "Priya Sundaram",
+      "location": "Chengalpattu",
+      "rating": 5,
+      "text": "Best hardware shop in Kanchipuram! The sanitary ware collection is stunning and the staff helped me choose the right fittings.",
+      "date": "February 2025"
+    },
+    {
+      "name": "Venkat Rajan",
+      "location": "Kanchipuram",
+      "rating": 5,
+      "text": "Reliable and trustworthy. Bought a 1000L water tank and pump – both working perfectly. Fast delivery too!",
+      "date": "April 2025"
+    },
+    {
+      "name": "Anitha Devi",
+      "location": "Walajabad",
+      "rating": 4,
+      "text": "Good range of plumbing materials. Prices are competitive. Highly recommend for any plumbing or borewell work.",
+      "date": "January 2025"
+    }
+  ]
+}
