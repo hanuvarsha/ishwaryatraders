@@ -205,6 +205,7 @@ clearBtn.addEventListener('click', () => {
   clearBtn.style.display = 'none';
   renderProductGrid();
 });
+document.activeElement.blur();
 
 // ── Sort ───────────────────────────────────────────────────
 document.getElementById('sortSelect').addEventListener('change', e => {
