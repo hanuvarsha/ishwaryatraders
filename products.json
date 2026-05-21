@@ -2,124 +2,124 @@
   "products": [
     {
       "id": 1,
-      "name": "CPVC Hot & Cold Pipe",
-      "category": "Pipes",
+      "name": "20mm (1/2 inch) PVC Pipe",
+      "category": "PVC Pipes",
       "price": 185,
-      "unit": "per metre",
-      "description": "Premium CPVC pipe for hot and cold water lines. Pressure rated, corrosion-resistant.",
+      "unit": "per Length",
+      "description": "PVC pipe-15 kg",
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
       "featured": true,
-      "badge": "Best Seller"
+      "badge": "ISI Marked"
     },
     {
       "id": 2,
-      "name": "PVC Column Pipe",
-      "category": "Pipes",
+      "name": "25mm (3/4 inch) PVC Pipe",
+      "category": "PVC Pipes",
       "price": 95,
-      "unit": "per metre",
-      "description": "Heavy-duty PVC column pipe suitable for borewell and submersible pump installations.",
+      "unit": "per Length",
+      "description": "PVC pipe-15 kg",
       "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop",
       "featured": false,
-      "badge": ""
+      "badge": "ISI Marked"
     },
     {
       "id": 3,
-      "name": "GI Galvanized Iron Pipe",
-      "category": "Pipes",
+      "name": "32mm (1 inch) PVC Pipe",
+      "category": "PVC Pipes",
       "price": 320,
-      "unit": "per metre",
-      "description": "ISI marked GI pipe for water supply and distribution. Heavy gauge, long-lasting.",
+      "unit": "per Lenth",
+      "description": "PVC pipe-15 kg",
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
       "featured": false,
       "badge": "ISI Marked"
     },
     {
       "id": 4,
-      "name": "HDPE Pipe (25mm)",
-      "category": "Pipes",
+      "name": "40mm (1 1/4 inch) PVC Pipe",
+      "category": "PVC Pipes",
       "price": 75,
-      "unit": "per metre",
-      "description": "High-density polyethylene pipe for underground water supply. Flexible and durable.",
+      "unit": "per Length",
+      "description": "PVC pipe-15 kg",
       "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop",
       "featured": false,
-      "badge": ""
+      "badge": "ISI Marked"
     },
     {
       "id": 5,
-      "name": "Ball Valve (1 inch)",
-      "category": "Plumbing Materials",
+      "name": "50mm (1 1/2 inch) PVC Pipe",
+      "category": "PVC Pipes",
       "price": 145,
-      "unit": "per piece",
-      "description": "Brass body ball valve with full bore. Suitable for water and gas lines.",
+      "unit": "per Length",
+      "description": "PVC Pipe-15 kg",
       "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=300&fit=crop",
       "featured": true,
-      "badge": "Top Pick"
+      "badge": "ISI Marked"
     },
     {
       "id": 6,
-      "name": "Gate Valve (1/2 inch)",
-      "category": "Plumbing Materials",
+      "name": "63mm (2 inch) PVC Pipe",
+      "category": "PVC Pipes",
       "price": 95,
-      "unit": "per piece",
-      "description": "ISI certified gate valve for water pipelines. Smooth operation, leak-proof sealing.",
+      "unit": "per Length",
+      "description": "PVC pipe-15 kg.",
       "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=300&fit=crop",
       "featured": false,
-      "badge": ""
+      "badge": "ISI Marked"
     },
     {
       "id": 7,
-      "name": "Elbow Fitting (90°)",
-      "category": "Plumbing Materials",
+      "name": "75mm (2 1/2 inch) PVC Pipe",
+      "category": "PVC Pipes",
       "price": 35,
-      "unit": "per piece",
-      "description": "UPVC 90-degree elbow for directional pipe change. Solvent weld type.",
+      "unit": "per Length",
+      "description": "PVC pipe-15 kg",
       "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=300&fit=crop",
       "featured": false,
-      "badge": ""
+      "badge": "ISI Marked"
     },
     {
       "id": 8,
-      "name": "Flexible Hose Connector",
-      "category": "Plumbing Materials",
+      "name": "90mm (3 inch) PVC Pipe",
+      "category": "PVC Pipes",
       "price": 120,
-      "unit": "per piece",
-      "description": "Stainless steel braided flexible hose for tap and toilet connections. 30cm length.",
+      "unit": "per Length",
+      "description": "PVC pipe-15 kg",
       "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&h=300&fit=crop",
       "featured": false,
-      "badge": "New"
+      "badge": "ISI Marked"
     },
     {
       "id": 9,
-      "name": "One-Piece Toilet (EWC)",
-      "category": "Sanitary Wares",
+      "name": "110mm (4 inch) PVC Pipe",
+      "category": "PVC Pipes",
       "price": 8500,
-      "unit": "per set",
-      "description": "Premium white ceramic one-piece water closet with dual flush system. ISI marked.",
+      "unit": "per Length",
+      "description": "PVC pipe-15 kg",
       "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop",
       "featured": true,
-      "badge": "Premium"
+      "badge": "ISI Marked"
     },
     {
       "id": 10,
-      "name": "Wall-Hung Wash Basin",
-      "category": "Sanitary Wares",
+      "name": "140mm (5 inch) PVC Pipe",
+      "category": "PVC Pipes",
       "price": 3200,
-      "unit": "per piece",
-      "description": "Elegant white vitreous china wall-hung wash basin. With overflow and tap hole.",
+      "unit": "per Length",
+      "description": "PVC Pipe-15 kg",
       "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop",
       "featured": false,
-      "badge": ""
+      "badge": "ISI Marked"
     },
     {
       "id": 11,
-      "name": "Single Lever Mixer Tap",
-      "category": "Sanitary Wares",
+      "name": "160mm (6 inch) PVC Pipe",
+      "category": "PVC Pipes",
       "price": 1850,
-      "unit": "per piece",
-      "description": "Chrome-finish brass single lever basin mixer with cold/hot water control.",
+      "unit": "per Length",
+      "description": "PVC pipe-15 kg",
       "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop",
       "featured": false,
-      "badge": ""
+      "badge": "ISI Marked"
     },
     {
       "id": 12,
