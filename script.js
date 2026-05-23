@@ -78,7 +78,7 @@ function createProductCard(product, delay = 0) {
 
 function waLink(product) {
   const msg = encodeURIComponent(
-    `Hello Balaji Traders, I am interested in *${product.name}* (₹${product.price} ${product.unit}). Please provide more details.`
+    `Hello Ishwarya Traders, I am interested in *${product.name}* (₹${product.price} ${product.unit}). Please provide more details.`
   );
   return `https://wa.me/917810019295?text=${msg}`;
 }
@@ -221,7 +221,7 @@ document.getElementById('contactForm').addEventListener('submit', e => {
   const message  = document.getElementById('formMessage').value.trim();
   if (!name || !phone) { alert('Please fill in your name and phone number.'); return; }
   const text = encodeURIComponent(
-    `Hello Balaji Traders,\n\nName: ${name}\nPhone: ${phone}\nInterested In: ${category}\n${message ? 'Message: ' + message : ''}\n\nPlease get back to me. Thank you!`
+    `Hello Ishwarya Traders,\n\nName: ${name}\nPhone: ${phone}\nInterested In: ${category}\n${message ? 'Message: ' + message : ''}\n\nPlease get back to me. Thank you!`
   );
   window.open(`https://wa.me/917810019295?text=${text}`, '_blank');
 });
